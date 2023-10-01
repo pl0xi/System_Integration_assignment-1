@@ -18,4 +18,12 @@ public class InvitationControllerTest {
         InvitationController invitationController = new InvitationController();
         invitationController.getGeoLocationByIP("");
     }
+
+    @Test
+    public void testgetGenderByNameAndLocation() throws ExecutionControl.NotImplementedException {
+        InvitationController invitationController = new InvitationController();
+        String result = invitationController.getGenderByNameAndLocation("DK", "Jens Lauge");
+        assertEquals("male", result);
+    }
+
 }
