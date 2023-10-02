@@ -33,7 +33,7 @@ The process begins by reading the list of partners. Subsequently, we iterate thr
 Once we have knowledge of the partner's gender, we proceed to create our invitation text using InvitationController.createInvitationForm(name, gender). Finally, we send our email using MailController.sendMail(email, invitationMessage, subject, path_to_pdf).
 
 ## Packages/Libraries (Not including java packages)
-JUnit
-javax
-org.json
-org.w3c
+* JUnit
+* javax
+* org.json
+* org.w3c
