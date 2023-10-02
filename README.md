@@ -14,6 +14,7 @@ Requirements for the project is:
 We will be provided with a list of partners with email, name, and ip.
 
 ## Project Structure
+The project is written in Java 11. 
 We have 4 Controllers (Which is a combined Controller/Service file (Might need to change that)):
 * GenderController
     * To get gender based on name and location
